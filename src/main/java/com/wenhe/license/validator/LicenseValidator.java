@@ -1,7 +1,5 @@
-package com.wenhe.license.license;
+package com.wenhe.license.validator;
 
-import com.wenhe.license.parameters.CustomKeyStoreParam;
-import com.wenhe.license.parameters.LicenseVerifyParameter;
 import de.schlichtherle.license.*;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

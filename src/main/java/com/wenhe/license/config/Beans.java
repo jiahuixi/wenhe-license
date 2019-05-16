@@ -1,7 +1,7 @@
 package com.wenhe.license.config;
 
-import com.wenhe.license.license.LicenseValidator;
-import com.wenhe.license.parameters.LicenseVerifyParameter;
+import com.wenhe.license.validator.LicenseValidator;
+import com.wenhe.license.validator.LicenseVerifyParameter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

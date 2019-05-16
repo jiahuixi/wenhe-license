@@ -1,4 +1,4 @@
-package com.wenhe.license.parameters;
+package com.wenhe.license.validator;
 
 public class LicenseVerifyParameter {
 

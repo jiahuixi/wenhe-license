@@ -1,7 +1,7 @@
-package com.wenhe.license.license;
+package com.wenhe.license.creator;
 
-import com.wenhe.license.parameters.CustomKeyStoreParam;
-import com.wenhe.license.parameters.LicenseCreatorParameter;
+import com.wenhe.license.validator.CustomLicenseManager;
+import com.wenhe.license.validator.CustomKeyStoreParam;
 import de.schlichtherle.license.*;
 
 import javax.security.auth.x500.X500Principal;

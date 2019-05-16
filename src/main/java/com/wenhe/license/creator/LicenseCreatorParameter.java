@@ -1,4 +1,4 @@
-package com.wenhe.license.parameters;
+package com.wenhe.license.creator;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

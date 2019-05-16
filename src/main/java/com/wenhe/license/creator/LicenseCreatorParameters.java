@@ -1,7 +1,7 @@
-package com.wenhe.license.parameters;
+package com.wenhe.license.creator;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.wenhe.license.license.LicenseVerifyModel;
+import com.wenhe.license.validator.LicenseVerifyModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;

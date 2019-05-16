@@ -1,8 +1,8 @@
 package com.wenhe.license.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.wenhe.license.parameters.LicenseCreatorParameter;
-import com.wenhe.license.license.LicenseVerifyModel;
+import com.wenhe.license.creator.LicenseCreatorParameter;
+import com.wenhe.license.validator.LicenseVerifyModel;
 
 import java.util.Date;
 

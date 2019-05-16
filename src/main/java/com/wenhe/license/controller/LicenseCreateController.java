@@ -2,10 +2,10 @@ package com.wenhe.license.controller;
 
 import com.wenhe.license.config.LicenseBean;
 import com.wenhe.license.dto.LicenseCreatorParameterInputDTO;
-import com.wenhe.license.license.LicenseCreator;
-import com.wenhe.license.parameters.LicenseCreatorParameter;
-import com.wenhe.license.license.LicenseValidator;
-import com.wenhe.license.license.LicenseVerifyModel;
+import com.wenhe.license.creator.LicenseCreator;
+import com.wenhe.license.creator.LicenseCreatorParameter;
+import com.wenhe.license.validator.LicenseValidator;
+import com.wenhe.license.validator.LicenseVerifyModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

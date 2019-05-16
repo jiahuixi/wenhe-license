@@ -1,4 +1,4 @@
-package com.wenhe.license.license;
+package com.wenhe.license.validator;
 
 import java.io.Serializable;
 import java.util.List;

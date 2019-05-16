@@ -1,4 +1,4 @@
-package com.wenhe.license.license;
+package com.wenhe.license.validator;
 
 import de.schlichtherle.license.*;
 import de.schlichtherle.xml.GenericCertificate;

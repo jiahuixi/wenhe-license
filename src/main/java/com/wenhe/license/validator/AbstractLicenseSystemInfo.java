@@ -1,4 +1,4 @@
-package com.wenhe.license.license;
+package com.wenhe.license.validator;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
