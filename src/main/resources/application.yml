@@ -1,0 +1,17 @@
+logging.config: classpath:logback.xml
+logging.file: log/license.log
+logging.level.con.wenhe.license: debug
+# console color  (idea need plugin: Grep Console)
+spring.output.ansi.enabled: Always
+
+license:
+  storePwd: public_password851
+  keyPwd: vasfkasd213
+  alias: privateKey
+  keyStoreResourcePath: license/privateKeys.keystore
+public-store:
+  storePwd: public_password851
+  alias: publicCert
+  keyStoreResourcePath: license/publicCerts.keystore
+  subject: dev
+  licensePath: C:\Users\jiahuixi\Desktop\liucun\license.lic
