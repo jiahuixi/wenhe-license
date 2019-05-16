@@ -6,6 +6,7 @@ import com.wenhe.license.creator.LicenseCreator;
 import com.wenhe.license.creator.LicenseCreatorParameter;
 import com.wenhe.license.validator.LicenseValidator;
 import com.wenhe.license.validator.LicenseVerifyModel;
+import de.schlichtherle.license.LicenseContentException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -73,12 +74,12 @@ public class LicenseCreateController {
         return "服务异常,请重试!";
     }
 
-//    @ResponseBody
-//    @ResponseStatus
-//    @ExceptionHandler(LicenseContentException.class)
-//    private String licenseContentException(LicenseContentException e) {
-//        return e.getMessage();
-//    }
+    @ResponseBody
+    @ResponseStatus
+    @ExceptionHandler(LicenseContentException.class)
+    private String licenseContentException(LicenseContentException e) {
+        return e.getMessage();
+    }
 
 
     private LicenseCreatorParameter<LicenseVerifyModel> wrap(LicenseCreatorParameter<LicenseVerifyModel> licenseCreatorParameter) {
